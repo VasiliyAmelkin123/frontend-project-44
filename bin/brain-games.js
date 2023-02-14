@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-import cli from '../src/cli.js'
+import game from '../src/game.js'
 
-console.log('Welcome to the Brain Games!')
-cli.grettingUserByName()
+game.startGame()
+const userName = game.getUserName()
+game.grettingUserByName(userName)
