@@ -1,9 +1,12 @@
-#Brain Games
+# Brain Games
 
-### brain-games
-
+## brain-games
 #### asciinema:
-https://asciinema.org/connect/4a56a568-a653-42e7-9395-e282f56a4f6d
+https://asciinema.org/a/WybSvraN3PvsnFm4X3EpuE8bm
+
+### brain-even
+#### asciinema:
+https://asciinema.org/a/VWSChOMdOUJTIdw04wPKLyxOh
 
 
 ### Hexlet tests and linter status:
