@@ -2,6 +2,6 @@
 
 import game from '../src/game.js'
 
-game.startGame()
+game.logWelcomeGame()
 const userName = game.getUserName()
-game.grettingUserByName(userName)
+game.logGrettingUserByName(userName)

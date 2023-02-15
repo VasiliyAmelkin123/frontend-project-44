@@ -2,8 +2,7 @@ import rs from 'readline-sync'
 
 const cli = {
     askQuestion(question) {
-        const answer = rs.question(`${question}? `)
-        return answer
+        return rs.question(question)
     }
 }
 
