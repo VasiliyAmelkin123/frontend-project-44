@@ -1,15 +1,19 @@
 # Brain Games
 
+##### make install - npm ci
+##### make link - sudo npm link
+
 ## brain-games
 #### asciinema:
-https://asciinema.org/a/WybSvraN3PvsnFm4X3EpuE8bm
+    https://asciinema.org/a/WybSvraN3PvsnFm4X3EpuE8bm
 
 ## brain-even
 #### asciinema:
-https://asciinema.org/a/VWSChOMdOUJTIdw04wPKLyxOh
+    https://asciinema.org/a/VWSChOMdOUJTIdw04wPKLyxOh
 
-## brain-calc
-
+## brain-calc 
+#### asciinema:
+    https://asciinema.org/a/xrSvGi5pNAhD1VZ8lFzhpNcG3
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/VasiliyAmelkin123/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/VasiliyAmelkin123/frontend-project-44/actions)
