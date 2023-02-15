@@ -1,7 +1,7 @@
 import gameApi from '../game-api.js'
-import { generateRandomNum } from '../utils.js'
+import { generateRandomNum, generateRandomOperation, solveExample } from '../utils.js'
 
-const evenGame = () => {
+const calcGame = () => {
     const winScore = 3
     let resultScore = 0
     let isGame = true
@@ -9,13 +9,14 @@ const evenGame = () => {
     gameApi.logWelcomeGame()
     const userName = gameApi.getUserName()
     gameApi.logGrettingUserByName(userName)
-    gameApi.logGameRules('Answer "yes" if the number is even, otherwise answer "no"')
+    gameApi.logGameRules('What is the result of the expression?')
 
     while(resultScore < winScore && isGame) {
         const userQuestion = generateQuestion()
         gameApi.logQuestion(`Question: ${userQuestion.question}`)
         const userAnswer = gameApi.askQuestion('Your answer: ')
-        if (userAnswer === userQuestion.answer) {
+
+        if (parseInt(userAnswer) === userQuestion.answer) {
             gameApi.logCorrectAnswer()
             resultScore += 1
         } else {
@@ -26,12 +27,14 @@ const evenGame = () => {
 
     if (resultScore === winScore) {
         gameApi.logWin(userName)
-        isGame = false
     }
 
     function generateQuestion() {
-        const question = generateRandomNum()
-        const answer = question % 2 === 0 ? "yes" : "no"
+        const operation = generateRandomOperation()
+        const num1 = generateRandomNum()
+        const num2 = generateRandomNum()
+        const question = `${num1} ${operation} ${num2}`
+        const answer = solveExample(num1, num2, operation)
 
         return {
             question,
@@ -40,4 +43,4 @@ const evenGame = () => {
     }
 }
 
-export default evenGame
+export default calcGame
