@@ -19,6 +19,10 @@
 #### asciinema
     https://asciinema.org/a/3fIu9jR9Cd8Xxv7euTeM8zbvd
 
+## brain-progression
+#### asciinema
+    https://asciinema.org/a/YcAqCaaunlXdYsHOODVBcKiNl
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/VasiliyAmelkin123/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/VasiliyAmelkin123/frontend-project-44/actions)
 
