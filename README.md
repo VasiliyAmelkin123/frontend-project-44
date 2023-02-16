@@ -5,11 +5,11 @@
 
 ## brain-games
 #### asciinema:
-    https://asciinema.org/a/WybSvraN3PvsnFm4X3EpuE8bm
+    https://asciinema.org/a/7LTORIVIcVSyWvxOTyhhAvaVR
 
 ## brain-even
 #### asciinema:
-    https://asciinema.org/a/VWSChOMdOUJTIdw04wPKLyxOh
+    https://asciinema.org/a/tcna9Efj9VFzk6l2lcn1KDE7I
 
 ## brain-calc 
 #### asciinema:
@@ -22,6 +22,10 @@
 ## brain-progression
 #### asciinema
     https://asciinema.org/a/YcAqCaaunlXdYsHOODVBcKiNl
+
+## brain-prime
+#### asciinema
+    https://asciinema.org/a/dVUEf1nrrT73s0zdxxJVYiVzt
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/VasiliyAmelkin123/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/VasiliyAmelkin123/frontend-project-44/actions)
