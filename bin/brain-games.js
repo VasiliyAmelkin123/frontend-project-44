@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import gameApi from '../src/game-api.js'
+import gameApi from '../src/game-api.js';
 
-gameApi.logWelcomeGame()
-const userName = gameApi.getUserName()
-gameApi.logGrettingUserByName(userName)
+gameApi.logWelcomeGame();
+const userName = gameApi.getUserName();
+gameApi.logGrettingUserByName(userName);
