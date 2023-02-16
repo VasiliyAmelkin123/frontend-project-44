@@ -23,3 +23,17 @@ export const findGcd = (num1, num2) => {
 
       return findGcd(num2, num1 % num2);
 }
+
+export const generateRandomProgression = (length = 5) => {
+    let randomStartNum = generateRandomNum()
+    const randomStepNum = generateRandomNum(10)
+    let currentNum = randomStartNum
+    let progression = []
+
+    for(let i = 0; i < length; i++) {
+        progression.push(currentNum)
+        currentNum = currentNum + randomStepNum
+    }
+    
+    return progression
+}
