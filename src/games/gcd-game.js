@@ -28,7 +28,7 @@ const gcdGame = () => {
     gameApi.logQuestion(`Question: ${userQuestion.question}`);
     const userAnswer = gameApi.askQuestion('Your answer: ');
 
-    if (parseInt(userAnswer, 2) === userQuestion.answer) {
+    if (userAnswer.toString() === userQuestion.answer.toString()) {
       gameApi.logCorrectAnswer();
       resultScore += 1;
     } else {
